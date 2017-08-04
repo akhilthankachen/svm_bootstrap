@@ -184,6 +184,9 @@ p{
   margin-right: 5px !important;
   font-size: 20px;
 }
+.icon:hover{
+  color: white;
+}
 @media(max-width:768px){
     .container-fluid-header{
       margin-top: 130px;
@@ -210,4 +213,15 @@ p{
       padding-left: 20px;
       padding-bottom: 10px;
     }
+}
+
+
+/*CONTENT*/
+.content{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.boxmodel{
+  background-color: white;
+  height: 600px;
 }

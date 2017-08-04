@@ -134,7 +134,7 @@ p{
     height: 150px;
     width:100%;
     background-color: white;
-    background: -webkit-linear-gradient(left, white , white , transparent); /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(left, white ,  white , transparent); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, white, white , transparent); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, white , white , transparent); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, white , white , transparent);
@@ -158,7 +158,6 @@ p{
   background-color: white;
   margin-top: 0px !important;
   height: 50px;
-  align-content: center;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 25px;
@@ -171,6 +170,19 @@ p{
 }
 .logo-img{
   padding-left: 30px;
+}
+.logo-address{
+  margin-top: 30px;
+  color: #ff6600;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 12px;
+}
+.icon{
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  font-size: 20px;
 }
 @media(max-width:768px){
     .container-fluid-header{
@@ -191,10 +203,7 @@ p{
     .slider-edit{
       margin-top: 100px;
     }
-    .slider-img{
-      height: 300px;
-      width: auto;
-    }
+
     .logo-img{
       width: 250px;
       height: 62px;

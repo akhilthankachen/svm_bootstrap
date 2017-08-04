@@ -127,7 +127,6 @@ p{
 
 .container-fluid-header{
     margin-top: 80px;
-    background: black;
     position:relative;
 }
 
@@ -135,24 +134,71 @@ p{
     height: 150px;
     width:100%;
     background-color: white;
-    opacity: 0.5;
+    background: -webkit-linear-gradient(left, white , white , transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, white , transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white , white , transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , white , transparent);
     position:absolute;
     top:0;
     bottom: 0px;
 }
-
-#myCarousel{
-  width: 100% ;
-  height: 500px ;
-  overflow-y: hidden;
+.carousel-inner{
+  height: 550px !important;
+  margin: 0px !important;
 }
 .slider-img{
   width: 100%;
-  height:auto;
-}
+  height: auto;
 
+}
+.slider-edit{
+  margin-top: 200px;
+}
+.scroll{
+  background-color: white;
+  margin-top: 0px !important;
+  height: 50px;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 12px;
+}
+.scroll:hover{
+  background-color: #ff6600;
+  color: white;
+}
+.logo-img{
+  padding-left: 30px;
+}
 @media(max-width:768px){
     .container-fluid-header{
-      margin-top: 50px;
+      margin-top: 130px;
+    }
+    .logo-container{
+        opacity: 1;
+        height: 80px;
+        background: white;
+        position:absolute;
+        top:-80px;
+        bottom: 0px;
+    }
+    .carousel-inner{
+      height: 200px !important;
+
+    }
+    .slider-edit{
+      margin-top: 100px;
+    }
+    .slider-img{
+      height: 300px;
+      width: auto;
+    }
+    .logo-img{
+      width: 250px;
+      height: 62px;
+      padding-left: 20px;
+      padding-bottom: 10px;
     }
 }

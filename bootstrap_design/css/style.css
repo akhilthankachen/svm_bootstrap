@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Open sans',sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+a:hover,
+a:active{
+  text-decoration: none;
+}
+h1,
+h2,
+h4{
+  font-family: 'PT Sans Narrow',Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+p{
+  font-size: 15px;
+  line-height: 21px;
+}
+.btn{
+  transition: all 300ms ease-in-out;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background-color: #ededed !important;
+  color: #3c3c3c !important;
+  border: 1px solid #fff;
+}
+.container-fluid{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/*NAVIGATION*/
+
+
+.navbar{
+  height: 80px;
+  text-transform: uppercase;
+  background-color: #ff6600 !important;
+  font-weight: 300;
+  font-size: 25px;
+}
+.nav a{
+  height: 80px;
+  color: white !important;
+  border-right: 1px solid white;
+  padding-top: 27px !important;
+}
+.nav a:hover{
+  background-color: white !important;
+  color: grey !important;
+}
+.last-nav{
+  border-right: none !important;
+}
+.navbar-brand{
+  display: none;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+.icon-bar{
+  background-color: white !important;
+}
+@media(max-width:1200px){
+    .nav a{
+      font-size: 20px;
+    }
+}
+@media(max-width:990px){
+    .nav a{
+      font-size: 12px;
+    }
+}
+@media(max-width:768px){
+  .navbar-brand{
+    display: block;
+    font-size: 15px;
+    color: white !important;
+  }
+  .navbar-brand:hover{
+    background-color: white !important;
+    color: grey !important;
+  }
+  .navbar{
+    height: inherit;
+    text-transform: none;
+  }
+  .nav{
+    background-color: #ff6600 !important;
+  }
+  .nav a{
+    border: 0px !important;
+    height: 40px;
+    font-size: 15px;
+    padding-top: 10px !important;
+  }
+  .navbar-nav li {
+    display: block;
+  }
+}
+
+
+/*HEADER*/
+
+
+.container-fluid-header{
+    margin-top: 80px;
+    background: black;
+    position:relative;
+}
+
+.logo-container{
+    height: 150px;
+    width:100%;
+    background-color: white;
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    bottom: 0px;
+}
+
+#myCarousel{
+  width: 100% ;
+  height: 500px ;
+  overflow-y: hidden;
+}
+.slider-img{
+  width: 100%;
+  height:auto;
+}
+
+@media(max-width:768px){
+    .container-fluid-header{
+      margin-top: 50px;
+    }
+}

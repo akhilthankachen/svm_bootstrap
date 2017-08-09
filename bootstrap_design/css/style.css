@@ -294,8 +294,12 @@ p{
 #bg-color-orange-lt:hover{
   background-color: white !important;
 }
+.learn-more{
+  text-decoration: underline;
+  font-style: italic;
+}
 .button-orange-gallery{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 @media(max-width:768px){
   .content{
@@ -313,14 +317,14 @@ p{
     height: 350px;
   }
   .box-three{
-    height: 800px;
+    height: 840px;
   }
 }
 
 
 /*FOOTER*/
 .footer{
-  height: 600px;
+  height: 780px;
   background-color: white;
   width: 100%;
   margin-top: 40px;
@@ -332,12 +336,70 @@ p{
 .googlemaps{
   height: 350px;
   background-image: url('../images/google-maps.jpg');
+  margin-top: 30px;
 }
 .button-maps{
   float: left;
+  margin-top: 300px;
+  margin-left: 20px;
+  background-color: #ff6600;
+  border: none;
+}
+.contact-container{
+  margin: 20px;
+}
+.footer-p{
+  font-size: 14px;
+  font-style: italic;
+}
+#contact-sub{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.go-up-button{
+  float: right;
+  background-color: #ff6600;
+  border: none;
+
+}
+.bottom-bar{
+  height: 60px;
+  background-color: #ff6600;
+}
+.company-name{
+  font-size: 12px;
+}
+.copyrights{
+  font-size: 12px;
+  font-style: italic;
+}
+.float-right{
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.float-left{
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 @media(max-width:768px){
-  .contact{
-    width: 80%;
+  .contact-h2{
+    width: 75%;
+  }
+  .googlemaps{
+    height: 200px;
+  }
+  .button-maps{
+    margin-top: 150px;
+  }
+  .footer{
+    height: 900px;
+  }
+  .bottom-bar{
+    height: 145px;
+  }
+  .copyrights{
+    margin-left: 30px;
   }
 }

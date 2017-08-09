@@ -141,6 +141,7 @@ p{
     position:absolute;
     top:0;
     bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .carousel-inner{
   height: 550px !important;
@@ -218,10 +219,73 @@ p{
 
 /*CONTENT*/
 .content{
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
 .boxmodel{
   background-color: white;
-  height: 600px;
+  height: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading-content{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+  width: 80%;
+}
+.content-p{
+  margin: 20px 20px 0px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:#999999;
+}
+.news-content{
+  width: 100%;
+}
+.news-content-h3{
+  font-size: 20px;
+  font-weight: 300;
+}
+.news-content-h3:hover{
+  font-size: 30px;
+}
+.news-content-p{
+  font-size: 10px;
+}
+.box-split{
+  height: 425px;
+}
+.color-blue-lt{
+  color: #4db8ff;
+}
+.color-blue-dk{
+  color: #0033cc;
+}
+.color-orange-lt{
+  color: #ff6600;
+}
+.color-orange-dk{
+  color: #ff0000;
+}
+.color-green-lt{
+  color: #33cc33;
+}
+.color-green-dk{
+  color: #00802b;
+}
+
+@media(max-width:768px){
+  .content{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -20px;
+  }
+  .box-one{
+    height: 1000px;
+  }
 }

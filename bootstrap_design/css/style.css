@@ -225,7 +225,7 @@ p{
 }
 .boxmodel{
   background-color: white;
-  height: 900px;
+  height: 950px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .heading-content{
@@ -278,7 +278,25 @@ p{
 .color-green-dk{
   color: #00802b;
 }
-
+#bg-color-green-lt{
+  background-color: #33cc33 !important;
+  border: none !important;
+}
+#bg-color-green-lt:hover{
+  background-color: white !important;
+}
+#bg-color-orange-lt{
+  background-color: #ff6600 !important;
+  border: none !important;
+  float: right;
+  margin-right: 22px;
+}
+#bg-color-orange-lt:hover{
+  background-color: white !important;
+}
+.button-orange-gallery{
+  margin-top: 10px;
+}
 @media(max-width:768px){
   .content{
     margin-left: 0px;
@@ -287,5 +305,39 @@ p{
   }
   .box-one{
     height: 1000px;
+  }
+  .box-two{
+    height: 850px;
+  }
+  .box-up{
+    height: 350px;
+  }
+  .box-three{
+    height: 800px;
+  }
+}
+
+
+/*FOOTER*/
+.footer{
+  height: 600px;
+  background-color: white;
+  width: 100%;
+  margin-top: 40px;
+}
+.contact-h2{
+  width: 95%;
+  border: none;
+}
+.googlemaps{
+  height: 350px;
+  background-image: url('../images/google-maps.jpg');
+}
+.button-maps{
+  float: left;
+}
+@media(max-width:768px){
+  .contact{
+    width: 80%;
   }
 }

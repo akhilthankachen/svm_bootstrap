@@ -6,7 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>SVM Central School</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <style>
+      .loader-h3{
+        color: #ff6600;
+        font-family: 'Open sans',sans-serif;
+        font-size: 20px;
+      }
+    </style>
+    <script>
+    $(window).load(function() {
+    $("#bar").width(600);
+    $(".loader").fadeOut(3000);
+    });
+    </script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -21,7 +34,16 @@
 
 
   </head>
-  <body style="background:url('images/slide2.jpg'); overflow-x: hidden;" >
+  <body style="background:url('images/bg.jpg'); overflow-x: hidden;" >
+
+    <!--PRELOADER-->
+    <div class='loader'>
+      <div class='loader-container'>
+        <img class="loader-img" src="images/logo.jpg"></img>
+        <h3 class="loader-h3"><b>LOADING</b></h3>
+      </div>
+    </div>
+    <!--End-Preloader-->
 
     <!--NAVIGATION-->
     <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -38,11 +60,11 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#header">Home</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#admission">Admission</a></li>
-            <li><a href="#mandatory">Mandatory Disclousure</a></li>
-            <li><a href="#about" class = "last-nav">About Us</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#blog" class = "last-nav">Blog</a></li>
           </ul>
         </div>
       </div>
@@ -162,22 +184,22 @@
                     <div class = "row">
                         <div class = "col-sm-6 col-md-3 col-lg-6 col-xs-6">
                           <a href = "#" class = "thumbnail">
-                             <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                             <img src = "images/gallery1.jpg" alt = "Generic placeholder thumbnail">
                           </a>
                        </div>
                        <div class = "col-sm-6 col-md-3 col-lg-6 col-xs-6">
                          <a href = "#" class = "thumbnail">
-                            <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                            <img src = "images/gallery2.jpg" alt = "Generic placeholder thumbnail">
                          </a>
                       </div>
                       <div class = "col-sm-6 col-md-3 col-lg-6 col-xs-6">
                         <a href = "#" class = "thumbnail">
-                           <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                           <img src = "images/gallery3.jpg" alt = "Generic placeholder thumbnail">
                         </a>
                      </div>
                      <div class = "col-sm-6 col-md-3 col-lg-6 col-xs-6">
                        <a href = "#" class = "thumbnail">
-                          <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                          <img src = "images/gallery4.jpg" alt = "Generic placeholder thumbnail">
                        </a>
                     </div>
                     </div>
@@ -195,7 +217,7 @@
                   <div class = "row">
                      <div class = "col-sm-12 col-md-12 col-lg-12 col-xs-12">
                         <div class = "thumbnail">
-                         <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                         <img src = "images/gallery3.jpg" alt = "Generic placeholder thumbnail">
                         </div>
 
                         <div class = "caption">
@@ -211,7 +233,7 @@
                      </div>
                      <div class = "col-sm-12 col-md-12 col-lg-12 col-xs-12">
                         <div class = "thumbnail">
-                         <img src = "images/kid.jpg" alt = "Generic placeholder thumbnail">
+                         <img src = "images/slide3.jpg" alt = "Generic placeholder thumbnail">
                         </div>
 
                         <div class = "caption">

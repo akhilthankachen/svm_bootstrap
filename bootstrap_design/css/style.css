@@ -47,7 +47,14 @@ p{
 }
 
 /*NAVIGATION*/
-
+.dropdown-menu{
+  background-color: #ff6600 !important;
+}
+.dropdown-a{
+  border-right: none !important;
+  height: 20px !important;
+  padding: 20px !important;
+}
 .navbar{
   height: 80px;
   text-transform: uppercase;
@@ -403,4 +410,73 @@ p{
   .copyrights{
     margin-left: 30px;
   }
+}
+
+
+/*ABOUT*/
+
+#about{
+  background-color: white;
+}
+.content-about{
+  margin: 0 auto;
+}
+.h2-center{
+  width: 95%;
+}
+.about-p{
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+@media(max-width:768px){
+  .h2-center{
+    width: 80%;
+  }
+  .about-p{
+    font-size: 15px;
+    padding-left: 10%;
+  }
+
+}
+
+
+#academics{
+  background-color: white;
+}
+.content-options{
+  width: 90%;
+  padding-left: 5%;
+}
+.options{
+  text-decoration: underline;
+}
+.content-float{
+  width: 90%;
+  padding-left: 5%;
+}
+.p-p{
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.float-left{
+  padding-right: 5px !important;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+@media(max-width:768px){
+  .p-p{
+    font-size: 15px;
+    padding-left: 10%;
+  }
+
+
+}
+
+#blog{
+  background-color: white;
 }

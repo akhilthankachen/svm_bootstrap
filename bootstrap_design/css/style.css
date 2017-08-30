@@ -326,7 +326,19 @@ p{
     height: 840px;
   }
 }
-
+.blog-heading{
+  padding-top: 10px;
+}
+.payment-link{
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.bg-orange{
+  background-color: #ff6600;
+  border: none;
+  font-size: 20px;
+}
 
 /*FOOTER*/
 .footer{
